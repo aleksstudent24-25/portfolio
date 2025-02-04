@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-import "./components/Style/main.css";
+import "./components/Style/index.css";
 
 createRoot(document.getElementById("root")).render(
   // <StrictMode>
-  <App />
+  <App className="font-outfit" />
   // </StrictMode>
 );
