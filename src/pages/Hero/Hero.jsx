@@ -1,17 +1,15 @@
 import TextTransition, { presets } from "react-text-transition";
 import { useTransitionCounter } from "../../hooks/useTransitionCounter/useTransitionCounter";
 
-const text = ["CREATIVE", "FUN", "VARIED", "ENTERTAINING"];
-
 export default function Hero() {
-  const i = useTransitionCounter(3000);
+  const { text, color } = useTransitionCounter(3000);
   return (
     <>
-      <section className="top-0 h-screen tracking-widest p-20 bg-gradient-to-tl content-center items-center text-center from-sky-400 to-fuchsia-500">
-        <h1 className="text-3xl heroTitle w-auto flex text-center">
+      <section className="h-90 tracking-widest p-20 content-end items-bottom text-center bg-gradient-to-b from-cyan-600 to-fuchsia-500">
+        <h1 className="text-3xl flex text-white">
           FULLSTACK DEVELOPER MAKING&nbsp;{" "}
-          <TextTransition className="" springConfig={presets.gentle}>
-            {`${text[i % text.length]}`}&nbsp;
+          <TextTransition className={`${color} heroTitle`} springConfig={presets.gentle}>
+            {text}&nbsp;
           </TextTransition>{" "}
           WEBSITES
         </h1>

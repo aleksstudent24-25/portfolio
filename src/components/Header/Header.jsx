@@ -1,10 +1,10 @@
-import { BiLogoGithub } from "react-icons/bi";
+import { BiLogoGithub, BiLogoGmail } from "react-icons/bi";
 
 export default function Header() {
   const pageDirects = ["About", "Projects"];
   return (
     <>
-      <header className="w-full h-auto bg-gray-800 flex place-items-center place-content-between p-5 font-outfit">
+      <header className="w-full h-auto bg-cyan-600 flex place-items-center place-content-between p-5 font-outfit">
         <ul className="flex gap-3">
           {pageDirects.map((x) => (
             <button
@@ -15,13 +15,18 @@ export default function Header() {
             </button>
           ))}
         </ul>
-        <a
-          href="https://github.com/aleksstudent24-25?tab=repositories"
-          target="_blank"
-          className="rounded-full"
-        >
-          <BiLogoGithub className="h-12 w-12 border-2 bg-gray-200 border-gray-900 rounded-full hover:cursor-pointer" />
-        </a>
+        <div className="flex gap-2">
+          <a href="mailto:aleksander24sfj@gmail.com" target="_blank">
+            <BiLogoGmail className="text-gray-200 bg-gray-800 hover:bg-gray-700 border-2 h-10 w-10 rounded-full"></BiLogoGmail>
+          </a>
+          <a
+            href="https://github.com/aleksstudent24-25?tab=repositories"
+            target="_blank"
+            className="rounded-full"
+          >
+            <BiLogoGithub className="text-gray-200 bg-gray-800 hover:bg-gray-700 border-2 h-10 w-10 rounded-full hover:cursor-pointer" />
+          </a>
+        </div>
       </header>
     </>
   );
