@@ -15,7 +15,13 @@ export default function Header() {
             </button>
           ))}
         </ul>
-        <BiLogoGithub className="h-12 w-12 border-2 bg-gray-200 border-gray-900 rounded-full" />
+        <a
+          href="https://github.com/aleksstudent24-25?tab=repositories"
+          target="_blank"
+          className="rounded-full"
+        >
+          <BiLogoGithub className="h-12 w-12 border-2 bg-gray-200 border-gray-900 rounded-full hover:cursor-pointer" />
+        </a>
       </header>
     </>
   );
