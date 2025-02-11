@@ -8,7 +8,7 @@ export default function Hero() {
       <section className="h-90 tracking-widest p-20 content-end items-bottom text-center bg-gradient-to-b from-cyan-600 to-fuchsia-500">
         <h1 className="text-3xl flex text-white">
           FULLSTACK DEVELOPER MAKING&nbsp;{" "}
-          <TextTransition className={`${color} heroTitle`} springConfig={presets.gentle}>
+          <TextTransition className={`${color} heroTitle font-semibold`} springConfig={presets.gentle}>
             {text}&nbsp;
           </TextTransition>{" "}
           WEBSITES

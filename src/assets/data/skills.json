@@ -1,0 +1,63 @@
+[
+  {
+    "name": "HTML",
+    "icon": "BiLogoHtml5",
+    "iconLib": "Bi",
+    "color": "#f06529"
+  },
+  { "name": "CSS", "icon": "BiLogoCss3", "iconLib": "Bi", "color": "#2965f1" },
+  {
+    "name": "JavaScript",
+    "icon": "BiLogoJavascript",
+    "iconLib": "Bi",
+    "color": "#f7df1e"
+  },
+  {
+    "name": "React",
+    "icon": "BiLogoReact",
+    "iconLib": "Bi",
+    "color": "#61dbfb"
+  },
+  {
+    "name": "Node.js",
+    "icon": "BiLogoNodejs",
+    "iconLib": "Bi",
+    "color": "#68a063"
+  },
+  {
+    "name": "C Sharp",
+    "icon": "TbBrandCSharp",
+    "iconLib": "Tb",
+    "color": "#68a063"
+  },
+  {
+    "name": "Microsoft SQL Server",
+    "icon": "DiMsqlServer",
+    "iconLib": "Di",
+    "color": "#B71C1C"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "TbBrandMongodb",
+    "iconLib": "Tb",
+    "color": "#00ED64"
+  },
+  {
+    "name": "Adobe Photoshop",
+    "icon": "SiAdobephotoshop",
+    "iconLib": "Si",
+    "color": "#40D0FB"
+  },
+  {
+    "name": "Adobe After Effects",
+    "icon": "SiAdobeaftereffects",
+    "iconLib": "Si",
+    "color": "#E298F2"
+  },
+  {
+    "name": "Figma",
+    "icon": "BiLogoFigma",
+    "iconLib": "Bi",
+    "color": "#1abcfe"
+  }
+]
