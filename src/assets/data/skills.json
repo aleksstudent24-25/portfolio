@@ -3,61 +3,77 @@
     "name": "HTML",
     "icon": "BiLogoHtml5",
     "iconLib": "Bi",
-    "color": "#f06529"
+    "color": "text-[#f06529]",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
-  { "name": "CSS", "icon": "BiLogoCss3", "iconLib": "Bi", "color": "#2965f1" },
+  {
+    "name": "CSS",
+    "icon": "BiLogoCss3",
+    "iconLib": "Bi",
+    "color": "text-[#2965f1]",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
   {
     "name": "JavaScript",
     "icon": "BiLogoJavascript",
     "iconLib": "Bi",
-    "color": "#f7df1e"
+    "color": "text-[#f7df1e]",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
     "name": "React",
     "icon": "BiLogoReact",
     "iconLib": "Bi",
-    "color": "#61dbfb"
+    "color": "text-[#61dbfb]",
+    "url": "https://react.dev/"
   },
   {
     "name": "Node.js",
     "icon": "BiLogoNodejs",
     "iconLib": "Bi",
-    "color": "#68a063"
+    "color": "text-[#68a063]",
+    "url": "https://nodejs.org/en"
   },
   {
     "name": "C Sharp",
     "icon": "TbBrandCSharp",
     "iconLib": "Tb",
-    "color": "#68a063"
+    "color": "text-[#9B4993]",
+    "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
   },
   {
     "name": "Microsoft SQL Server",
     "icon": "DiMsqlServer",
     "iconLib": "Di",
-    "color": "#B71C1C"
+    "color": "text-[#B71C1C]",
+    "url": "https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16"
   },
   {
     "name": "MongoDB",
     "icon": "TbBrandMongodb",
     "iconLib": "Tb",
-    "color": "#00ED64"
+    "color": "text-[#00ED64]",
+    "url": "https://www.mongodb.com/"
   },
   {
     "name": "Adobe Photoshop",
     "icon": "SiAdobephotoshop",
     "iconLib": "Si",
-    "color": "#40D0FB"
+    "color": "text-[#40D0FB]",
+    "url": "https://www.adobe.com/no/products/photoshop.html"
   },
   {
-    "name": "Adobe After Effects",
-    "icon": "SiAdobeaftereffects",
+    "name": "Adobe Premier Pro",
+    "icon": "SiAdobepremierepro",
     "iconLib": "Si",
-    "color": "#E298F2"
+    "color": "text-[#E298F2]",
+    "url": "https://www.adobe.com/no/products/premiere.html"
   },
   {
     "name": "Figma",
     "icon": "BiLogoFigma",
     "iconLib": "Bi",
-    "color": "#1abcfe"
+    "color": "text-[#1abcfe]",
+    "url": "https://www.figma.com/"
   }
 ]

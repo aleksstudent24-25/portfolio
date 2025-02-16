@@ -14,20 +14,24 @@ export default function Skills() {
 
   console.log(skills);
   return (
-    <>
-      <div className="skillContainer">
-        <h2>SKILLS</h2>
-        <ul>
+    <section className="flex justify-center items center bg-gradient-to-br from-indigo-300 via-red-300 to-fuchsia-300">
+      <div className="skillContainer p-5 text-center font-outfit">
+        <h1 className="text-[32px] font-extrabold text-gray-200 title tracking-widest p-10">
+          SKILLS
+        </h1>
+        <ul className="grid grid-cols-4">
           {skills?.map((skill) => {
             const Icon = Icons[skill.iconLib]?.[skill.icon];
             return (
-              <li key={skill.name} className="flex items-center gap-1">
-                <Icon className={`ml-2 text-[${skill.color}]`} /> {skill.name}
-              </li>
+              <a key={skill.name} href={skill.url} target="_blank">
+                <li className="flex m-2 items-center gap-1 border-2 border-gray-100 bg-gray-800 hover:bg-gray-700 hover:cursor-pointer text-gray-100 p-5 place-content-center rounded-2xl">
+                  <Icon className={`${skill.color}`} /> {skill.name}
+                </li>
+              </a>
             );
           })}
         </ul>
       </div>
-    </>
+    </section>
   );
 }
