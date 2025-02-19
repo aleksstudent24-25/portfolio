@@ -1,7 +1,8 @@
 import { BiLogoGithub, BiLogoGmail } from "react-icons/bi";
 
 export default function Header() {
-  const pageDirects = ["About", "Projects"];
+  // Page directions need to be changed to actually redirect to certain parts on the site
+  const pageDirects = ["About","Skills"];
   return (
     <>
       <header className="w-full h-auto bg-cyan-600 flex place-items-center place-content-between p-5 font-outfit">
