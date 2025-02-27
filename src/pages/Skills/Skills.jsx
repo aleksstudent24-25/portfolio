@@ -14,7 +14,10 @@ export default function Skills() {
 
   console.log(skills);
   return (
-    <section className="flex justify-center items center bg-gradient-to-br from-indigo-300 via-red-300 to-fuchsia-300">
+    <section
+      id="skills"
+      className="flex justify-center items center bg-gradient-to-br from-indigo-300 via-red-300 to-fuchsia-300"
+    >
       <div className="skillContainer p-5 text-center font-outfit">
         <h1 className="text-[32px] font-extrabold text-gray-200 title tracking-wide p-10">
           SKILLS
