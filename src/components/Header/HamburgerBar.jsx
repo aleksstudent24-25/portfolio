@@ -1,7 +1,10 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MENU_ITEMS } from "../../assets/data/menu_list.json";
+import { NavBarStateContext } from "../../contexts/NavBarStateContext";
+import { useContext } from "react";
 
-export default function HamburgerBar({ isOpen, handleMenuToggle }) {
+export default function HamburgerBar() {
+  const { isOpen, handleMenuToggle } = useContext(NavBarStateContext);
   return (
     <>
       <div>
@@ -16,7 +19,7 @@ export default function HamburgerBar({ isOpen, handleMenuToggle }) {
               onClick={handleMenuToggle}
               className={`fixed mt-${
                 12 * i
-              } p-2.5 border-2 border-gray-200 rounded-md text-gray-200 bg-gray-800 hover:bg-gray-700 hover:cursor-pointer w-25`}
+              } md:hidden p-2.5 border-2 border-gray-200 rounded-md text-gray-200 bg-gray-800 hover:bg-gray-700 hover:cursor-pointer w-25`}
             >
               <a href={x.ref}>{x.name}</a>
             </button>
