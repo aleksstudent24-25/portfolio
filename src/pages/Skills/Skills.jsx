@@ -16,13 +16,13 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="flex justify-center items center bg-gradient-to-br from-indigo-300 via-red-300 to-fuchsia-300"
+      className="flex justify-center items center bg-gradient-to-bl from-fuchsia-300 via-blue-300 to-blue-300"
     >
       <div className="skillContainer p-5 text-center font-outfit">
         <h1 className="text-[32px] font-extrabold text-gray-200 title tracking-wide p-10">
           SKILLS
         </h1>
-        <ul className="grid grid-cols-4">
+        <ul className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {skills?.map((skill) => {
             const Icon = Icons[skill.iconLib]?.[skill.icon];
             return (
