@@ -15,9 +15,9 @@ export default function AboutMe() {
             <div className="container-content content-center items-center flex flex-col md:flex-row p-5 gap-6">
               <p>{aboutme.description}</p>
               <img
-                // src="../../../public/images/doshin_tree.png"
+                src="public/images/doshin_tree.png"
                 alt=""
-                className="h-70 w-70 object-cover rounded-xl border-2 border-gray-100"
+                className="h-70 w-90 object-cover rounded-xl border-2 border-gray-100"
               />
             </div>
           </div>
