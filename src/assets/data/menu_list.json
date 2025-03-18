@@ -1,6 +1,7 @@
 {
   "MENU_ITEMS": [
     { "name": "About", "ref": "#about" },
-    { "name": "Skills", "ref": "#skills" }
+    { "name": "Skills", "ref": "#skills" },
+    { "name": "Contact", "ref": "#contact" }
   ]
 }

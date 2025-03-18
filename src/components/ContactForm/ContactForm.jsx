@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { InputField } from "./InputField";
+import { InputField } from "../InputField/InputField";
 
 export default function ContactForm() {
   const [form, setForm] = useState({
@@ -57,7 +57,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-[372px] flex flex-col justify-center mx-auto mt-10 text-white p-6 bg-slate-800 bg-opacity-90 rounded-md shadow-md">
+    <div className="w-[372px] flex flex-col justify-center mx-auto p-6 bg-gray-800 border-2 border-gray-100 rounded-xl text-gray-100 font-outfit">
       {responseMessage && (
         <div className="p-3 mb-4 text-green-800 bg-green-100 rounded">
           {responseMessage}
@@ -67,22 +67,22 @@ export default function ContactForm() {
         <div className="p-3 mb-4 text-red-800 bg-red-100 rounded">{error}</div>
       )}
 
-      <h2>Contact us</h2>
+      <h2>Contact me</h2>
       <form onSubmit={handleSubmit}>
         <InputField
           type="text"
           name="name"
-          placeholder="ditt navn"
+          placeholder="your name"
           value={form.name}
           onChange={handleChange}
         >
-          Navn
+          Name
         </InputField>
 
         <InputField
           type="email"
           name="email"
-          placeholder="din epost"
+          placeholder="your email"
           value={form.email}
           onChange={handleChange}
         >
@@ -92,7 +92,7 @@ export default function ContactForm() {
         <InputField
           type="text"
           name="subject"
-          placeholder="f.eks medlemskap"
+          placeholder="e.g. feedback"
           value={form.subject}
           onChange={handleChange}
         >
@@ -102,17 +102,17 @@ export default function ContactForm() {
         <InputField
           type="textarea"
           name="message"
-          placeholder="ditt melding"
+          placeholder="your message here ..."
           value={form.message}
           onChange={handleChange}
         >
-          Melding
+          Message
         </InputField>
 
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full p-2 text-white bg-slate-500 hover:bg-red-500"
+          className="p-2.5 w-full border-2 border-gray-200 rounded-2xl text-gray-200 bg-gray-800 hover:bg-gray-700 hover:cursor-pointer"
         >
           {isSubmitting ? "Sending..." : "Send Message"}
         </button>
