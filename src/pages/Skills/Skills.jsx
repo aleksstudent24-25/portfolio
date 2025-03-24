@@ -16,9 +16,9 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="flex justify-center items center bg-gradient-to-bl from-fuchsia-300 via-blue-300 to-blue-300"
+      className="pt-20 pb-20 md:h-screen flex justify-center items-center bg-gradient-to-bl from-fuchsia-300 via-blue-300 to-blue-300"
     >
-      <div className="skillContainer p-5 text-center font-outfit">
+      <div className="skillContainer p-5 text-center bg-gray-800 border-2 border-gray-100 rounded-xl text-gray-100 font-outfit">
         <h1 className="text-[32px] font-extrabold text-gray-200 title tracking-wide p-10">
           SKILLS
         </h1>

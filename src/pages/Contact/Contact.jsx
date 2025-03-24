@@ -5,7 +5,7 @@ export default function Contact() {
     <>
       <div
         id="contact"
-        className="w-full p-10 bg-gradient-to-b from-blue-300 to-cyan-600"
+        className="w-full pt-20 pb-20 p-10 bg-gradient-to-b from-blue-300 to-cyan-600"
       >
         <ContactForm />
       </div>
