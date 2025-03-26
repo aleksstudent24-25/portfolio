@@ -1,0 +1,7 @@
+{
+  "PROJECT_ITEMS": [
+    { "title": "Bedrift API", "desc": "Search for and find info on business registered in Norway.", "ref": "https://github.com/aleksstudent24-25/bedrift-api-gruppeprosjekt"},
+    { "title": "The Doshin Zone", "desc": "Simple website that sorts images in an ever expanding grid using math.", "ref": "https://github.com/aleksstudent24-25/js-the-doshin-zone"},
+    { "title": "Newsletter Signup", "desc": "Non functioning showcase of a newsletter signup.", "ref": "https://github.com/aleksstudent24-25/newsletter-sign-up-with-success-message-task"}
+  ]
+}

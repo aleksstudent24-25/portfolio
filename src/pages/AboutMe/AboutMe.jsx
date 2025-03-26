@@ -7,7 +7,7 @@ export default function AboutMe() {
         id="about"
         className="md:h-screen bg-gradient-to-br from-fuchsia-400 via-blue-300 to-fuchsia-300"
       >
-        <div className="p-20 bg-gradient-to-b from-fuchsia-500 to-transparent flex justify-center">
+        <div className=" bg-gradient-to-b from-fuchsia-500 to-transparent flex justify-center">
           <div className="content-center items-center w-100 h-180 md:h-100 md:w-180 bg-gray-800 border-2 border-gray-100 rounded-xl text-gray-100 font-outfit">
             <h1 className="text-[32px]  font-black text-emerald-300 title tracking-widest pt-5 text-center">
               {aboutme.title}
