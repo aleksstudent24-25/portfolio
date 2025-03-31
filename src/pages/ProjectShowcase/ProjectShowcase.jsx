@@ -28,7 +28,6 @@ export default function ProjectShowcase() {
             <FaArrowLeft />
           </button>
           <div className="flex flex-col w-[300px] text-center">
-            <h1>TEST</h1>
             <div
               id="container"
               className="flex flex-col items-center"
